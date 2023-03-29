@@ -10,6 +10,8 @@ textarea {
     width: 50%;
     font-family: "Baskerville Old Face";
     font-size: 2vw;
+    background-color: #1c1c1c;
+    color: white;
 
 }
 .selectInfoHolder {
