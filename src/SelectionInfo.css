@@ -1,0 +1,19 @@
+/*
+ Antonio Balanzategui, 2/25/2023
+ */
+h2 {
+    width: 50%;
+    font-family: "Baskerville Old Face";
+    font-size: 3vw;
+}
+textarea {
+    width: 50%;
+    font-family: "Baskerville Old Face";
+    font-size: 2vw;
+
+}
+.selectInfoHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

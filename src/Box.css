@@ -1,0 +1,58 @@
+/*
+ Antonio Balanzategui, 2/25/2023
+ */
+.boxPrime {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: seagreen;
+    border: 0.25em solid black;
+    font-family: "Baskerville Old Face";
+    font-size: 1.2vw;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.boxOdd {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: dodgerblue;
+    border: 0.25em solid black;
+    font-family: "Baskerville Old Face";
+    font-size: 1.2vw;
+    text-align: center;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.boxEven {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: darkred;
+    border: 0.25em solid black;
+    font-family: "Baskerville Old Face";
+    font-size: 1.2vw;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.selected {
+    border: 0.25em solid yellow;
+}
+
+.boxEven:hover {
+    background-color: red;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.boxOdd:hover {
+    background-color: skyblue;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.boxPrime:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+

@@ -1,0 +1,10 @@
+/*
+ Antonio Balanzategui, 2/25/2023
+ */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+    width: 95%;
+}
+
